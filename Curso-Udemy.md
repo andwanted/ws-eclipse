@@ -117,7 +117,13 @@ Code here :D
       
       
       
-`           import java.util.Scanner;
+ 
+ 
+ 
+<br>
+<p>Para ler um texto ATÉ A QUEBRA DE LINHA</p>
+ 
+ `           import java.util.Scanner;
 
       public class Teste {
         public static void main(String[] args) {

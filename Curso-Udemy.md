@@ -26,9 +26,9 @@ Code here :D
 3. Seção 2
   - Algoritmo, Automação, Programa  de Computador
 
-• Algoritmo: sequência finita de instruções para se resolver um problema
-      • Automação: quando uma máquina realiza o algoritmo
-• Computador:
-      • hardware / software
-      • máquina que automatiza algoritmos (de cálculo)
-      • Programa de computador: algoritmo executado pelo computador
+- Algoritmo: sequência finita de instruções para se resolver um problema
+       -  Automação: quando uma máquina realiza o algoritmo
+- Computador:
+       -  hardware / software
+       -  máquina que automatiza algoritmos (de cálculo)
+       -  Programa de computador: algoritmo executado pelo computador

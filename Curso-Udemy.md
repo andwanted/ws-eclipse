@@ -21,10 +21,10 @@ Code here :D
 
 :performing_arts:	:performing_arts:	:performing_arts:	 :rainbow:	:rainbow:	:rainbow:	:dizzy:	:dizzy:	:dizzy:	
 
-1. Seção 1
-  - Introdução ao curso.
   <br><br><br>
-3. Seção 2
+  
+  
+2. Seção 2
   - Algoritmo, Automação, Programa  de Computador
 
   - Algoritmo: sequência finita de instruções para se resolver um problema
@@ -33,3 +33,5 @@ Code here :D
       -  hardware / software
       -  máquina que automatiza algoritmos (de cálculo)
       -  Programa de computador: algoritmo executado pelo computador
+
+

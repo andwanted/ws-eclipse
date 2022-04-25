@@ -16,14 +16,14 @@ Code here :D
 
 
 
-<b>Seção 1</b>
+<h2><b>Seção 1</b></h2>
   - Introdução ao curso.
 
 :performing_arts:	:performing_arts:	:performing_arts:	 :rainbow:	:rainbow:	:rainbow:	:dizzy:	:dizzy:	:dizzy:	
 
   <br>  
   
-<b>Seção 2</b>
+<h2><b>Seção 2</b></h2>
     - Algoritmo, Automação, Programa  de Computador
     
     Algoritmo: sequência finita de instruções para se resolver um problema
@@ -45,7 +45,7 @@ Code here :D
 
   <br>  
   
-<b>Seção 3</b>
+<h2><b>Seção 3</b></h2>
    -Entendendo as versões do Java
 
     ```
@@ -54,7 +54,7 @@ Code here :D
     LTS - Long Term Support - é o termo para a versão que terá maior duração de suporte pela oracle.
     
 
-      <h3>O que é Java?</h3>
+      O que é Java?
       • Linguagem de programação (regras sintáticas) • Plataforma de desenvolvimento e execução
       • Bibliotecas (API) • Ambientes de execução
       
@@ -91,3 +91,45 @@ Code here :D
       • JVM - Java Virtual Machine
       • Máquina virtual do Java - necessário para executar sistemas Java
 
+<h2><b>Seção 4</b></h2>
+   -Expressões aritméticas
+   
+    Operadores aritméticos
+        Operador Significado
+          + adição
+          - subtração
+          * multiplicação
+          / divisão
+          % resto da divisão ("mod")
+        Precedência:
+          1º lugar: * / %
+          2º lugar: + -
+          
+      • Conceito informal
+      • Declaração de variáveis: <tipo> <nome> = valor;
+      • Tipos primitivos:
+      • Números inteiros: byte, short, int, long
+      • Números com ponto flutuante: float, double
+      • Valor verdade: boolean
+      • Um caractere Unicode: char
+      • Tipo String: cadeia de caracteres (palavras, textos)
+      • Nomes de variáveis / padrão camel case
+      
+      
+      
+`           import java.util.Scanner;
+
+      public class Teste {
+        public static void main(String[] args) {
+          Scanner sc = new Scanner(System.in);
+          String s1, s2, s3;
+          s1 = sc.nextLine();
+          s2 = sc.nextLine();
+          s3 = sc.nextLine();
+          System.out.println("DADOS DIGITADOS:");
+          System.out.println(s1);
+          System.out.println(s2);
+          System.out.println(s3);
+          sc.close();
+        }
+      }`

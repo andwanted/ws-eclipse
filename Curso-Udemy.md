@@ -167,6 +167,5 @@ Code here :D
         System.out.printf("US decimal point: %.3f%n", measure);
       }
     }```
-  
-  
+
   <h2> Meu Exemplo :)</h2>

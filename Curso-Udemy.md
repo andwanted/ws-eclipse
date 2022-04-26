@@ -124,9 +124,11 @@ Code here :D
 <h2> Exemplo do curso </h2>
 <p>Para ler um texto ATÉ A QUEBRA DE LINHA</p>
  
+ 
+ ```java
             import java.util.Scanner;
 
-`      public class Teste {
+      public class Teste {
         public static void main(String[] args) {
           Scanner sc = new Scanner(System.in);
           String s1, s2, s3;
@@ -139,14 +141,15 @@ Code here :D
           System.out.println(s3);
           sc.close();
         }
-      }`
+      }```
       
       
       
    
 
 
-`import java.util.Locale;
+```java
+  import java.util.Locale;
 
       public class Main {
             public static void main(String[] args) {
@@ -169,6 +172,6 @@ Code here :D
               Locale.setDefault(Locale.US);
               System.out.printf("US decimal point: %.3f%n", measure);
             }
-          }`
+          }```
               
 

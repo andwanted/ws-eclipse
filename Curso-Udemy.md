@@ -177,3 +177,105 @@ Code here :D
 ```
 
 <h2>Meu Exemplo</h2>
+
+```
+Casting
+É a conversão explícita de um tipo para outro.
+É necessário quando o compilador não é capaz de “adivinhar” que o
+resultado de uma expressão deve ser de outro tipo.
+```
+
+    
+```java
+//exemplo de casting
+		int a = 10;
+		int b = 5;
+		int r = a * b;
+		
+		System.out.println(r);
+``` 
+   
+
+```
+    import java.util.Locale;
+    import java.util.Scanner;
+
+    public class Teste {
+
+      public static void main(String[] args) {
+
+        // Para considerar o separador de decimais como ponto, ANTES da declaração do
+        // Scanner, faça:
+        Locale.setDefault(Locale.US);
+
+        // exemplo entrada de saidas
+        System.out.println("Exemplo de saída");
+
+        // exemplo de testo formado tipo double
+        double x = 10.35784;
+        System.out.println(x);
+        System.out.printf("%.2f%n", x);
+        System.out.printf("%.4f%n", x);
+
+        // para concatenar elementos
+        String nome = "Anderson";
+        String sobrenome = " Leandro";
+        System.out.println(nome + sobrenome);
+
+        // para concatenar com printf
+        double variavel1 = 10.1;
+        double variavel2 = 20.1;
+        String variavel3 = "Texto 3";
+
+        System.out.printf("TEXTO1 %f TEXTO2 %f %s %n", variavel1, variavel2,variavel3);
+
+        String nome1 = "Maria";
+        int idade = 31;
+        double renda = 4000.0;
+        System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome1, idade, renda);
+
+
+
+
+        //imprimindo sem quebra de texto
+        System.out.print("Texto1 ");
+        System.out.print(" Texto2 \n");
+
+
+        //exemplo de casting
+        int a = 10;
+        int b = 5;
+        int r = a * b;
+
+        System.out.println(r);
+
+        //exemplo entrada de dados
+
+        Scanner sc = new Scanner(System.in);
+        //recebe um tipo String
+        System.out.println("Digite um texto tipo String");
+        String t1 = sc.next();
+        System.out.println("Texto digitado: " + t1);
+
+        //recebe um tipo inteiro
+        System.out.println("Digite um valor tipo Inteiro");
+        int t2 = sc.nextInt();
+        System.out.println("Numero digitado: " + t2);
+
+        //recebe um tipo double
+        System.out.println("Digite um tipo dobule");
+        double t3 = sc.nextDouble();
+        System.out.println("Numero digitado:" + t3);
+
+        //recebe um tipo char
+        System.out.println("Digite um valor tipo char");
+        char t4 = sc.next().charAt(0);
+        System.out.println("Valor tipo Char digitado " + t4);
+
+
+
+      }
+    }
+
+
+```
